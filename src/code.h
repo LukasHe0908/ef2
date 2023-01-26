@@ -280,10 +280,10 @@ public:
             VARIANT var1, var2;
             VariantInit(&var1);
             VariantInit(&var2);
-            if (u)
+            if (a)
             {
                 var1.vt = VT_BSTR;
-                var1.bstrVal = u;
+                var1.bstrVal = a;
             }
             else
             {
