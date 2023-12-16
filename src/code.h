@@ -1,4 +1,4 @@
-﻿#ifndef CODE_H
+#ifndef CODE_H
 #define CODE_H
 #include "stdfx.h"
 #include "base64.h"
@@ -82,12 +82,12 @@ public:
             SendLinkToIDM(result);
             if (result.find("-q") != std::string::npos)
             {
-                MessageBox(NULL, TEXT("已添加到下载队列，需要开始下载时请到IDM点击开始队列！"), TEXT("静默下载"), MB_OK);
+                // MessageBox(NULL, TEXT("已添加到下载队列，需要开始下载时请到IDM点击开始队列！"), TEXT("静默下载"), MB_OK);
             }
         }
         else
         {
-            MessageBox(NULL, TEXT("非法ef2链接！请查阅相关文档：https://github.com/MotooriKashin/ef2"), NULL, MB_ICONERROR);
+            MessageBox(NULL, TEXT("非法ef2链接！"), NULL, MB_ICONERROR);
         }
     };
     static void ef2File(std::string path)
@@ -183,14 +183,14 @@ public:
             }
             else if (one == 0)
             {
-                MessageBox(NULL, TEXT("该ef2文件似乎并不包含有效下载链接！？\r\n请检查文件内容或者反馈到：https://github.com/MotooriKashin/ef2/issues"), TEXT("ef2解析"), MB_ICONERROR);
+                MessageBox(NULL, TEXT("该ef2文件似乎并不包含有效下载链接！？"), TEXT("ef2解析"), MB_ICONERROR);
             }
             else
             {
                 /* ef2文件中不止一条链接，以添加队列方式发送最后一条链接给IDM（需要手动开始下载队列） */
                 fin.append("-q");
                 SendLinkToIDM(fin);
-                MessageBox(NULL, TEXT("该ef2文件包含复数个下载链接，为避免弹出过多对话框，已全部添加IDM到下载队列，请自行到IDM里开始队列！"), TEXT("ef2解析"), MB_ICONWARNING);
+                // MessageBox(NULL, TEXT("该ef2文件包含复数个下载链接，为避免弹出过多对话框，已全部添加IDM到下载队列，请自行到IDM里开始队列！"), TEXT("ef2解析"), MB_ICONWARNING);
             }
             inFile.close();
         }
