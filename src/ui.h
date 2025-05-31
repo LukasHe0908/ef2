@@ -1,4 +1,4 @@
-﻿#include "register.h"
+#include "register.h"
 
 /* 主窗口回调 */
 LRESULT CALLBACK WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)

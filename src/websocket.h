@@ -1,4 +1,4 @@
-﻿#include "headsocket.h"
+#include "headsocket.h"
 #include "nativemessaging.h"
 #include <iostream>
 

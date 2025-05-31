@@ -1,4 +1,4 @@
-﻿#ifndef NATIVEMESSAGING_H
+#ifndef NATIVEMESSAGING_H
 #define NATIVEMESSAGING_H
 #include "stdfx.h"
 

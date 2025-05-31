@@ -1,4 +1,4 @@
-﻿#ifndef PRIVILEGE_H
+#ifndef PRIVILEGE_H
 #define PRIVILEGE_H
 #include "stdfx.h"
 
