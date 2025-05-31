@@ -14,12 +14,12 @@ BEGIN
     BEGIN
       VALUE "CompanyName", "Motoori Kashin"
       VALUE "FileDescription", "IDM EF2辅助工具"
-      VALUE "FileVersion", "1.0.2"
+      VALUE "FileVersion", "1.0.4"
       VALUE "InternalName", "ef2.exe"
       VALUE "LegalCopyright", "Licensed under the MIT License."
       VALUE "OriginalFilename", "ef2.exe"
       VALUE "ProductName", "IDM EF2 Helper"
-      VALUE "ProductVersion", "1.0.2"
+      VALUE "ProductVersion", "1.0.4"
     END
   END
   BLOCK "VarFileInfo"
