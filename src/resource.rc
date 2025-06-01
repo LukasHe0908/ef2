@@ -13,13 +13,13 @@ BEGIN
     BLOCK "080404E4"
     BEGIN
       VALUE "CompanyName", "Motoori Kashin"
-      VALUE "FileDescription", "IDM EF2¸¨Öú¹¤¾ß"
-      VALUE "FileVersion", "1.0.2"
+      VALUE "FileDescription", "IDM EF2è¾…åŠ©å·¥å…·"
+      VALUE "FileVersion", "1.0.4"
       VALUE "InternalName", "ef2.exe"
       VALUE "LegalCopyright", "Licensed under the MIT License."
       VALUE "OriginalFilename", "ef2.exe"
       VALUE "ProductName", "IDM EF2 Helper"
-      VALUE "ProductVersion", "1.0.2"
+      VALUE "ProductVersion", "1.0.4"
     END
   END
   BLOCK "VarFileInfo"
