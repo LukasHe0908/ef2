@@ -1,4 +1,4 @@
-#ifndef CODE_H
+﻿#ifndef CODE_H
 #define CODE_H
 #include "stdfx.h"
 #include "base64.h"
